@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   devtool: 'source-map',
   performance: {
     maxAssetSize: 500000, // increase the size limit to 500 KiB
