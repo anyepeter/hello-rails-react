@@ -10,8 +10,8 @@ const getText = createAsyncThunk("greeting", async () => {
         data:data.message,
       };
     }
-  } catch (err) {
-    return { sucess: false, err: err.response.data.message };
+  } catch (r) {
+    return { sucess: false, r: r.response.data.message };
   }
 });
 

@@ -12,7 +12,7 @@ const textSlice = createSlice({
       if (action.payload.success) {
         return { ...state, data: action.payload.data };
       }
-      return { ...state, error: action.payload.err };
+      return { ...state, error: action.payload.r };
     });
   },
 });
