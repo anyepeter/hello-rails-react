@@ -29,8 +29,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Budget-App <a name="about-project"></a>
-
 Hello world app. This app display hello world 
 
 ## 🛠 Built With <a name="built-with"></a>
