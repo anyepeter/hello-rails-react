@@ -1,18 +1,19 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const getText = createAsyncThunk("greeting", async () => {
+const fetchData = createAsyncThunk("greetings", async () => {
   try {
-    const text = await fetch("http://127.0.0.1:5000/api/greetings");
-    const data = await text.json();
-    if (data.message) {
+    const value = await fetch("http://127.0.0.1:5000/api/greetings");
+    const data = await value.json();
+    if (data.greeting) {
       return {
         success: true,
-        data:data.message,
+        data,
       };
     }
+    SENT 
   } catch (r) {
-    return { sucess: false, r: r.response.data.message };
+    return { sucess: false, r: r.response.data.value };
   }
 });
 
-export default getText;
+export default fetchData;

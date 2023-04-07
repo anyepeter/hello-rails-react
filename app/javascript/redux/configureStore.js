@@ -3,8 +3,9 @@ import textSlice from './textSlice';
 
 const store = configureStore({
   reducer: {
-    message: textSlice,
+    value: textSlice,
   },
 });
+
 
 export default store;

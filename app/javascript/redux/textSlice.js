@@ -1,14 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
-import getText from './getData';
+import fetchData from './getData';
 
 
 const textSlice = createSlice({
-  name: 'text',
+  name: 'value',
   initialState: {
     data: {},
   },
   extraReducers: (builder) => {
-    builder.addCase(getText.fulfilled, (state, action) => {
+    builder.addCase(fetchData.fulfilled, (state, action) => {
       if (action.payload.success) {
         return { ...state, data: action.payload.data };
       }
