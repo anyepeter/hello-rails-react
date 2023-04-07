@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h3><b>Budget-App README</b></h3>
+  <h3><b>Hello-react-rails README</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -11,7 +11,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
