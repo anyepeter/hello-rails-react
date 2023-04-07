@@ -61,12 +61,12 @@ Hello world app. This app display hello world
 
 ### Key Features <a name="key-features"></a>
 
-- **Log into the application**
-- **Create a category**
-- **Add transaction**
+- **Display a message**
+- **React as frontend**
+- **Rails as backend**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Here is a live [demo](https://budgetracker.onrender.com) of the application
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -82,7 +82,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  https://github.com/anyepeter/rails-budget.git
+  https://github.com/anyepeter/hello-rails-react.git
 ```
 
 ### Install
@@ -90,10 +90,11 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd rails-budget
+  cd hello-rails-react
   bundle install 
   rails db:create
   rails db:schema:load
+  npm install
 ```
 ### Usage
 
@@ -103,13 +104,6 @@ To run the project, execute the following command:
   rails server
 ```
 
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec
-```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +127,6 @@ To run tests, run the following command:
 
 
 - [ ] **A better graphical user interface**
-- [ ] **Add a credit card**
 - [ ] **A chat functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,7 +137,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/anyepeter/hello-rails-react/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +155,6 @@ If you like this project, go ahead and give it a star. It is very much appreciat
 
 
 - I would like to thank Microvers for providing this great opportunity and for the project guide as well 👏
-- Huge appriciation to Gregoire Vella for providing design system guidelines since this project is built upon thatopment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,4 +172,4 @@ If you like this project, go ahead and give it a star. It is very much appreciat
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./https://github.com/anyepeter/rails-budget/blob/develop/LICENSE) licensed.
+This project is [MIT](https://github.com/anyepeter/hello-rails-react/blob/main/LICENSE) licensed.
