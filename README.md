@@ -1,8 +1,4 @@
 
-<div align="center">
-  <h3><b>Hello-react-rails README</b></h3>
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
