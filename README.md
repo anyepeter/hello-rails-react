@@ -163,8 +163,6 @@ If you like this project, go ahead and give it a star. It is very much appreciat
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/anyepeter/hello-rails-react/blob/main/LICENSE) licensed.
